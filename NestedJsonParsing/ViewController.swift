@@ -9,9 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let baseURL = "https://jsonplaceholder.typicode.com/users"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        NetworkManager.getResponse(url: baseURL) { result in
+            switch result {
+            case .success(let response):
+                print(response)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
     }
 
 

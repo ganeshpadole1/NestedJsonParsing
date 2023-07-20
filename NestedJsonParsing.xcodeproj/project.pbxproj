@@ -13,6 +13,8 @@
 		1F89A4E52A69431600F70442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89A4E32A69431600F70442 /* Main.storyboard */; };
 		1F89A4E72A69431C00F70442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89A4E62A69431C00F70442 /* Assets.xcassets */; };
 		1F89A4EA2A69431C00F70442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89A4E82A69431C00F70442 /* LaunchScreen.storyboard */; };
+		1F89A4F22A69435700F70442 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89A4F12A69435700F70442 /* NetworkManager.swift */; };
+		1F89A4F42A69477D00F70442 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89A4F32A69477D00F70442 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F89A4E62A69431C00F70442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F89A4E92A69431C00F70442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F89A4EB2A69431C00F70442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F89A4F12A69435700F70442 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1F89A4F32A69477D00F70442 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1F89A4E62A69431C00F70442 /* Assets.xcassets */,
 				1F89A4E82A69431C00F70442 /* LaunchScreen.storyboard */,
 				1F89A4EB2A69431C00F70442 /* Info.plist */,
+				1F89A4F12A69435700F70442 /* NetworkManager.swift */,
+				1F89A4F32A69477D00F70442 /* Users.swift */,
 			);
 			path = NestedJsonParsing;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F89A4F22A69435700F70442 /* NetworkManager.swift in Sources */,
 				1F89A4E22A69431600F70442 /* ViewController.swift in Sources */,
+				1F89A4F42A69477D00F70442 /* Users.swift in Sources */,
 				1F89A4DE2A69431600F70442 /* AppDelegate.swift in Sources */,
 				1F89A4E02A69431600F70442 /* SceneDelegate.swift in Sources */,
 			);
